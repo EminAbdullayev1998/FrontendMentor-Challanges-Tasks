@@ -1,0 +1,33 @@
+@media only screen and (max-width: 480px){
+    section{
+        background-color: aquamarine !important;
+
+        .main-box{
+            width: 90% !important;
+            height: 550px !important;
+
+            .hero-box{
+                width: 90% !important;
+
+                .advice-box{
+
+                    p{
+                        font-size: 25px !important;
+                    }
+                }
+
+                .patterns{
+                    display: none;
+                }
+
+                .patterns-res{
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

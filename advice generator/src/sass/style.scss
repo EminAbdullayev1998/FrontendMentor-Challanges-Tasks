@@ -1,0 +1,83 @@
+@import 'responsive';
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 747px;
+    background-color: #202632; 
+
+    .main-box{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        height: 350px;
+        border-radius: 25px;
+        background-color: #313a49;
+
+        .hero-box{
+            width: 450px;
+            height: 300px;
+
+            .title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 50px;
+
+                h1{
+                    color: #55ffa9;
+                    font-family: Manrope;
+                }
+            }
+
+            .advice-box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 200px;
+
+                p{
+                    font-size: 35px;
+                    text-align: center;
+                    color: #cef1fd;
+                    font-family: Manrope;
+                }
+            }
+
+            .patterns{
+                width: 100%;
+                height: 20px;
+
+                svg{
+                    color: #cef1fd;
+                }
+            }
+
+            .patterns-res{
+                display: none;
+            }
+        }
+
+        .circle{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: -30px;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            border-radius: 50px;
+            background-color: #55ffa9;
+            &:hover{
+                box-shadow: -2px 3px 2rem var(hsl(150, 100%, 66%));
+            }
+        }
+    }
+}
