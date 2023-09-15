@@ -1,0 +1,86 @@
+@media screen and (max-width: 665px) {
+    section{
+
+        .calculator-box{
+            width: 90% !important;
+            height: auto !important;
+
+            .main-box{
+                width: 95% !important;
+                height: auto !important;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+                .inputs{
+                    justify-content: space-between !important;
+
+                    .day-input{
+                        width: 30% !important;
+
+                        .input input{
+                            width: 100% !important;
+                        }
+
+                        .alert p{
+                            font-size: 11px !important;
+                        }
+                    }
+
+                    .month-input{
+                        width: 30% !important;
+
+                        .input input{
+                            width: 100% !important;
+                        }
+
+                        .alert p{
+                            font-size: 11px !important;
+                        }
+                    }
+
+                    .year-input{
+                        width: 30% !important;
+
+                        .input input{
+                            width: 100% !important;
+                        }
+
+                        .alert p{
+                            font-size: 11px !important;
+                        }
+                    }
+                }
+
+                .button-box{
+                    position: relative;
+
+                    .line{
+                        width: 100% !important;
+                    }
+
+                    .circle{
+                        position: absolute;
+                        left: 40%;
+                        width: 70px !important;
+                        height: 70px !important;
+                    }
+                }
+
+                .results{
+                    height: 200px !important;
+
+                    .results-divs{
+
+                        span{
+                            font-size: 40px !important;
+                        }
+
+                        p{
+                            font-size: 40px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

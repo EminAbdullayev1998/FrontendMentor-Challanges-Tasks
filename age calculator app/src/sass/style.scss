@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+@import 'responsive';
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 746px;
+    background-color: #f0f0f0;
+
+    .calculator-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 650px;
+        height: 500px;
+        background-color: #ffffff;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 35%;
+
+        .main-box{
+            width: 600px;
+            height: 450px;
+            border-bottom-right-radius: 35%;
+
+            .inputs{
+                display: flex;
+                width: 100%;
+                height: auto;
+
+                .day-input{
+                    width: 25%;
+                    height: auto;
+
+                    .title{
+                        width: 100%;
+                        height: 20px;
+
+                        h1{
+                            color: hsl(0, 1%, 44%);
+                            letter-spacing: 2px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .input{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        input{
+                            width: 120px;
+                            height: 35px;
+                            padding: 5px;
+                            font-size: 32px;
+                            border: 2px solid hsl(0, 0%, 86%);
+                            border-radius: 5px;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+
+                        input[type="number"]::-webkit-inner-spin-button {
+                            display: none;
+                        }
+
+                        input::placeholder{
+                            font-size: 32px;
+                        }
+                    }
+
+                    .alert{
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .error{
+                        display: none;
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .input-error{
+                        border: 1px solid red !important;
+                    }
+                }
+
+                .month-input{
+                    width: 25%;
+                    height: auto;
+
+                    .title{
+                        width: 100%;
+                        height: 20px;
+
+                        h1{
+                            color: hsl(0, 1%, 44%);
+                            letter-spacing: 2px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .input{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        input{
+                            width: 120px;
+                            height: 35px;
+                            padding: 5px;
+                            font-size: 32px;
+                            border: 2px solid hsl(0, 0%, 86%);
+                            border-radius: 5px;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+
+                        input[type="number"]::-webkit-inner-spin-button {
+                            display: none;
+                        }
+
+                        input::placeholder{
+                            font-size: 32px;
+                        }
+                    }
+
+                    .alert{
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .error{
+                        display: none;
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .input-error{
+                        border: 1px solid red !important;
+                    }
+                }
+
+                .year-input{
+                    width: 25%;
+                    height: auto;
+
+                    .title{
+                        width: 100%;
+                        height: 20px;
+
+                        h1{
+                            color: hsl(0, 1%, 44%);
+                            letter-spacing: 2px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .input{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 60px;
+
+                        input{
+                            width: 120px;
+                            height: 35px;
+                            padding: 5px;
+                            font-size: 32px;
+                            border: 2px solid hsl(0, 0%, 86%);
+                            border-radius: 5px;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+
+                        input[type="number"]::-webkit-inner-spin-button {
+                            display: none;
+                        }
+
+                        input::placeholder{
+                            font-size: 32px;
+                        }
+                    }
+
+                    .alert{
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .error{
+                        display: none;
+                        align-items: center;
+                        width: 100%;
+                        height: 20px;
+
+                        p{
+                            font-size: 13px;
+                            color: red;
+                            font-style: italic;
+                        }
+                    }
+
+                    .input-error{
+                        border: 1px solid red !important;
+                    }
+                }
+            }
+
+            .button-box{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 80px;
+
+                .line{
+                    width: 500px;
+                    height: 2px;
+                    background-color: hsl(0, 0%, 86%);
+                }
+
+                .circle{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 80px;
+                    height: 80px;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    background-color: #864cff;
+                }
+            }
+
+            .results{
+                width: 100%;
+                height: 270px;
+                border-bottom-right-radius: 35%;
+
+                .results-divs{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    height: auto;
+
+                    span{
+                        font-size: 80px;
+                        font-weight: 700;
+                        color: #864cff;
+                        font-family: 'Poppins', sans-serif;
+                    }
+
+                    p{
+                        font-size: 80px;
+                        font-weight: 700;
+                        margin-left: 15px;
+                        font-family: 'Poppins', sans-serif;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
